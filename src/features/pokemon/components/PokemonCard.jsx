@@ -37,16 +37,16 @@ const PokemonCard = ({ id, name, image = [], type }) => {
 
         <p className="text-[clamp(14px,2vw,18px)] text-gray-500 mb-1">#{id}</p>
 
-        {/* <div className="flex flex-wrap w-full justify-evenly gap-2 mt-2">
+        <div className="flex flex-wrap w-full justify-evenly gap-2 mt-2">
           {type.map((t, i) => (
             <span
               key={i}
-              className="px-2 py-2 bg-gray-200 text-primary rounded-xl text-[clamp(15px,2.5vw,20px)] font-medium hover:bg-gray-200"
+              className="px-2 py-2 bg-gray-200 text-primary rounded-xl text-[clamp(15px,2.5vw,18px)] font-medium hover:bg-gray-200"
             >
               {t}
             </span>
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );
