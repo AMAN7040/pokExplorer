@@ -1,10 +1,11 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <p className="text-red-600">HELOOOO</p>
-    </>
+    <Routes>
+      <Route path="/" element={<div className="text-red-600">HELLOO</div>} />
+    </Routes>
   );
 }
 
